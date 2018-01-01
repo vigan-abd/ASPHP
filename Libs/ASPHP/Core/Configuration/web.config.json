@@ -1,0 +1,25 @@
+{
+	"environment": {
+		"testMode": false,
+		"newline": "\r\n",
+		"charset": "UTF-8",
+		"directory": {
+			"~": "/public_html/mysite",
+			"webRoot": "http://localhost",
+			"publicDir": "/Content",
+			"uploadDir": "/App_Data",
+			"logFile": "/public_html/mysite/ErrorLog.txt"
+		}
+	},
+	"routing": {
+		"defaultRoute": "Home",
+		"defaultAction": "Index",
+		"errorRoute": "Error",
+		"errorAction": "Message"
+	},
+	"connectionStrings": {
+		"default": null
+	},
+	"entityProviders": null,
+	"schemaProviders": null
+}

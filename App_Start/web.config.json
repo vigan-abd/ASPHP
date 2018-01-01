@@ -1,0 +1,36 @@
+{
+	"environment": {
+		"testMode": true,
+		"newline": "\r\n",
+		"charset": "UTF-8",
+		"directory": {
+			"~": "/public_html/mysite",
+			"webRoot": "http://localhost",
+			"publicDir": "/Content",
+			"uploadDir": "/App_Data",
+			"logFile": "/public_html/mysite/ErrorLog.txt"
+		}
+	},
+	"routing": {
+		"defaultRoute": "Home",
+		"defaultAction": "Index",
+		"errorRoute": "Error",
+		"errorAction": "Message"
+	},
+	"connectionStrings": {
+		"default": {
+			"driver": "mysql",
+			"dsn": "mysql:host=localhost;port=3306;dbname=mydb;charset=utf8",
+			"username": "root",
+			"password": "1234"
+		}
+	},
+	"entityProviders": {
+		"default": "\\ASPHP\\Module\\Data\\Entity\\MySQLQueryBuilder",
+		"mysql": "\\ASPHP\\Module\\Data\\Entity\\MySQLQueryBuilder"
+	},
+	"schemaProviders": {
+		"default": "\\ASPHP\\Module\\Data\\Entity\\Schema\\MySQLSchemaBuilder",
+		"mysql": "\\ASPHP\\Module\\Data\\Entity\\Schema\\MySQLSchemaBuilder"
+	}
+}

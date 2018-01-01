@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  ## Test that file requested has json extension 
+  RewriteCond %{REQUEST_FILENAME} (.)+\.config\.json$ 
+  ## Forbid Access 
+  RewriteRule .* - [F,NS,L]
+
+  ##Route rules
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule (.+)$ ./index.php?request=$1 [QSA,NC,L]
+
+</IfModule>

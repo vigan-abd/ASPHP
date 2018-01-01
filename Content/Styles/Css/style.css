@@ -1,0 +1,93 @@
+.standard-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.col-no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-no-padding-left {
+    padding-left: 0px;
+}
+
+.col-no-padding-right {
+    padding-right: 0px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.space-10 {
+    display: block;
+    height: 10px;
+}
+
+.space-20 {
+    display: block;
+    height: 20px;
+}
+
+.space-30 {
+    display: block;
+    height: 30px;
+}
+
+.space-40 {
+    display: block;
+    height: 40px;
+}
+
+.space-50 {
+    display: block;
+    height: 50px;
+}
+
+.space-60 {
+    display: block;
+    height: 60px;
+}
+
+.space-70 {
+    display: block;
+    height: 70px;
+}
+
+.space-80 {
+    display: block;
+    height: 80px;
+}
+
+.space-90 {
+    display: block;
+    height: 90px;
+}
+
+.space-100 {
+    display: block;
+    height: 100px;
+}
+
+@media screen and (max-width: 767px){
+    .col-padding-mobile {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .col-no-padding-mobile {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
