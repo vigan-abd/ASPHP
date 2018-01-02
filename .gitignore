@@ -87,6 +87,8 @@ ipch/
 *.vsp
 *.vspx
 *.sap
+*.sln
+*.phpproj
 
 # TFS 2012 Local Workspace
 $tf/
