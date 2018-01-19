@@ -63,3 +63,5 @@
 #*.RTF   diff=astextplain
 +*.js linguist-language=PHP
 +*.php linguist-language=PHP
+*.js linguist-language=PHP
+*.php linguist-language=PHP
