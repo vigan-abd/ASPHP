@@ -30,7 +30,7 @@ class Router extends StaticClass
         if(empty($_REQUEST['request']))
             $_REQUEST['request'] = "";
 
-        $args = explode('/', rtrim($_REQUEST['request'], '/'));//Get part request=$1 from htaccess, so get part after ?
+        $args = explode('/', trim($_REQUEST['request'], '/'));//Get part request=$1 from htaccess, so get part after ?
         $argLength = count($args);
         if($argLength >= 2)
         {
